@@ -6,7 +6,7 @@ This walkthrough will explain you how to correctly create a microservice from a 
 
 ## Current Version
 
-This example is currently based on Java 17 and Spring 3
+This example is currently based on Java 17 and Springboot 3.1.7
 
 ## Create a microservice
 
