@@ -10,7 +10,8 @@
 	</parent>
 	<groupId>eu.miaplatform.customplugin.springboot</groupId>
 	<artifactId>springboot-template</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.1.0</version>
+	<packaging>jar</packaging>
 	<name>springboot-template</name>
 	<description>Mia-Care Template project for Spring Boot</description>
 	<properties>
@@ -37,6 +38,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>${project.artifactId}</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
