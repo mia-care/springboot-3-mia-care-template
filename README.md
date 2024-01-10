@@ -6,7 +6,7 @@ This walkthrough will explain you how to correctly create a microservice from a 
 
 ## Current Version
 
-This example is currently based on Java SE 11 (LTS)
+This example is currently based on Java 17 and Spring 3
 
 ## Create a microservice
 
