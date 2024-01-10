@@ -10,7 +10,7 @@ COPY LICENSE .
 
 RUN echo "service-name: $COMMIT_SHA" >> ./commit.sha
 
-FROM openjdk:11-jre-slim
+FROM openjdk:17-ea-slim
 
 LABEL maintainer="alessandro.bonadei@mia-care.io" \
       name="springboot-template" \
